@@ -3,7 +3,7 @@ function towerBuilder(nFloors, nBlockSz) {
   let w = nBlockSz[0];
   let h = nBlockSz[1]; 
        
-  // the line 
+  // the line
   for(let i = 1; i <= h; i++) 
     { 
       let line = []; 
