@@ -3,7 +3,7 @@ function topThreeWords(text) {
   text = text.toLowerCase().trim().replace(/["",.//\/:]/g,'');
   
   let array = text.split(' ')
-
+  
   console.log(array);
   
   let object = {};
