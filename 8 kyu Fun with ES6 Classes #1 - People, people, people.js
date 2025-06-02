@@ -5,7 +5,7 @@ class Person {
     this.age = age,
     this.gender = gender
   };
-  
+   
   sayFullName () {
     return `${this.firstName} ${this.lastName}`; 
   }
