@@ -15,7 +15,7 @@ function topThreeWords(text) {
           count = 1;
           for(let j = i+1; j < array.length; j++)
             {
-              if(array[i] === array[j])
+              if(array[i] === array[j]) 
                 {
                   count +=1;
                 }
