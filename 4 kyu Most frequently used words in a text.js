@@ -7,7 +7,7 @@ function topThreeWords(text) {
   console.log(array);
    
   let object = {};
-  let count; 
+  let count;  
   for(let i = 0; i < array.length; i++) 
     {
       if(object[array[i]] === undefined ) 
