@@ -10,7 +10,7 @@ function topThreeWords(text) {
   let count; 
   for(let i = 0; i < array.length; i++) 
     {
-      if(object[array[i]] === undefined )
+      if(object[array[i]] === undefined ) 
         { 
           count = 1;
           for(let j = i+1; j < array.length; j++) 
