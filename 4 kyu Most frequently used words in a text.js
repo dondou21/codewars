@@ -1,4 +1,4 @@
-function topThreeWords(text) {
+ function topThreeWords(text) {
   
   text = text.toLowerCase().trim().replace(/["",.//\/:]/g,'');
   
