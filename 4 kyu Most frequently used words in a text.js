@@ -13,7 +13,7 @@ function topThreeWords(text) {
       if(object[array[i]] === undefined )
         { 
           count = 1;
-          for(let j = i+1; j < array.length; j++)
+          for(let j = i+1; j < array.length; j++) 
             { 
               if(array[i] === array[j]) 
                 {
