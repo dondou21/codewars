@@ -6,6 +6,6 @@ function sumStrings(a, b) {
     c += ~~a.pop() + ~~b.pop();
     res = c % 10 + res;
     c = c > 9;
-  }
+  } 
   return res.replace(/^0+/, '');
 }
