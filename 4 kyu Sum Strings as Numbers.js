@@ -8,4 +8,4 @@ function sumStrings(a, b) {
     c = c > 9;
   } 
   return res.replace(/^0+/, '');
-}
+} 
