@@ -3,7 +3,7 @@ function sumStrings(a, b) {
   a = a.split(''); 
   b = b.split('');
   while (a.length || b.length || c) {  
-    c += ~~a.pop() + ~~b.pop();
+    c += ~~a.pop() + ~~b.pop(); 
     res = c % 10 + res;
     c = c > 9;
   } 
