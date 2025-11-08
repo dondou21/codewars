@@ -5,7 +5,7 @@ function fixParentheses(str) {
   const array = str.split('');
   
   for (let i = 0; i < array.length; i++) {
-    if (array[i] === '(') {
+    if (array[i] === '(') { 
       balance++;
     } else if (array[i] === ')') {
       if (balance === 0) {
