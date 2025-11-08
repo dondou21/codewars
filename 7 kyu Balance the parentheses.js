@@ -1,6 +1,6 @@
 function fixParentheses(str) {
   let balance = 0;    
-  let open = 0; 
+  var open = 0; 
 
   const array = str.split('');
 
