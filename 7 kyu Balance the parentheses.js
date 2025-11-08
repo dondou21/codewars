@@ -17,6 +17,5 @@ function fixParentheses(str) {
     }
   }
 
-  
   return '('.repeat(open) + str + ')'.repeat(balance);
 }
