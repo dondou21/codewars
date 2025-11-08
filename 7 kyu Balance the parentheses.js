@@ -10,7 +10,7 @@ function fixParentheses(str) {
     } else if (array[i] === ')') {
       if (balance === 0) {
       
-        open++;
+        open++; 
       } else {
         balance--;
       }
