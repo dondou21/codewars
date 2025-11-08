@@ -2,7 +2,7 @@ function fixParentheses(str) {
   let balance = 0;    
   let open = 0; 
 
-  const array = str.split(''); 
+  const array = str.split('');
   
   for (let i = 0; i < array.length; i++) {
     if (array[i] === '(') {
